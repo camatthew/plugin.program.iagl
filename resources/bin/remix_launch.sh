@@ -9,7 +9,7 @@ fi
 if [ -f "/usr/bin/retroarch.sh" ]
 then
 	# Launch app - escaped!
-	systemd-run /usr/bin/retroarch.sh "$@"
+	systemd-run /usr/bin/retroarch "$@"
 fi
 
 # Done!
